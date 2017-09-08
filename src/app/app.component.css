@@ -1,0 +1,13 @@
+h1, h2 {
+    color: #369;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 250%;
+}
+
+ul.quickstart {
+    list-style-type: none;
+}
+
+ul.quickstart a {
+    font-size: 150%;
+}
