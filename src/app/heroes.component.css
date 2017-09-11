@@ -1,5 +1,5 @@
 .heroes {
-    margin: 0 0 2em 0;
+    /*margin: 0 0 2em 0;*/
     list-style-type: none;
     padding: 0;
     column-count: 3;
@@ -9,8 +9,9 @@
     left: 0;
     background-color: #EEE;
     margin: 0 0.5em 0.5em 0.5em;
-    height: 2em;
-    line-height: 2em;
+    padding: 0;
+    height: 3em;
+    line-height: 3em;
     border-radius: 4px;
 }
 .heroes li.selected {
@@ -32,8 +33,23 @@
     display: inline-block;
     vertical-align: top;
     padding: 0 0.7em;
-    height: 100%;
     background-color: #607D8B;
     margin-right: .8em;
     border-radius: 4px 0 0 4px;
+    text-align: center;
+}
+.heroes .info {
+
+}
+div.delete-wrapper {
+    float: right;
+    height: 100%;
+    padding-right: 0.5em;
+    vertical-align: top;
+}
+button.delete {
+    background-color: gray !important;
+    color: white;
+    margin: 0.5em 0.25em;
+    vertical-align: middle;
 }
